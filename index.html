@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>신라대학교_리뉴얼</title>
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="lib/jquery-3.5.1.min.js"></script>
+ 
+     <script>
+         $(function () {
+ 
+             var swiper = new Swiper(".mySwiper", {
+                 spaceBetween: 30,
+                 effect: "fade",
+                 autoplay: {
+                     delay: 4000,
+                     disableOnInteraction: false,
+                 },
+                 loop : true,
+                 pagination: {
+                     el: ".swiper-pagination",
+                     clickable: true,
+                 },
+             });
+         })
+     </script>
 </head>
 <body>
    <div id="wrap">
@@ -236,6 +260,11 @@
                 <a href="#">login</a>
                 <div class="login_box">
                     <p>닫기</p>
+                    <div class="title">
+                        <h3>LOGIN</h3>
+                        <p>신라대학교 홈페이지에 오신 것을 환영합니다.</p>
+                        <span>재학생(졸업생) 및 교직원은 신라넷 아이디와 비밀번호로 로그인하세요.</span>
+                    </div><!-- title end -->
                     <input type="radio" id="s" name="login" value="교직원" checked />
                     <label for="s">교직원</label>
                     <input type="radio" id="ss" name="login" value="학부생" />
@@ -282,6 +311,11 @@
                         <a href="#">login</a>
                         <div class="login_box">
                             <p>닫기</p>
+                            <div class="title">
+                                <h3>LOGIN</h3>
+                                <p>신라대학교 홈페이지에 오신 것을 환영합니다.</p>
+                                <span>재학생(졸업생) 및 교직원은 신라넷 아이디와 비밀번호로 로그인하세요.</span>
+                            </div><!-- title end -->
                             <input type="radio" id="s" name="login" value="교직원" checked />
                             <label for="s">교직원</label>
                             <input type="radio" id="ss" name="login" value="학부생" />
@@ -532,8 +566,200 @@
     </header>
 
     <div class="main_visual">
-
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/main_visual_01.png" alt="메인_비주얼_01">
+                </div><!-- .swiper-slide end -->
+                <div class="swiper-slide">
+                    <img src="img/main_visual_02.png" alt="메인_비주얼_02">
+                </div><!-- .swiper-slide end -->
+                <div class="swiper-slide">
+                    <img src="img/main_visual_03.png" alt="메인_비주얼_03">
+                </div><!-- .swiper-slide end -->               
+            </div><!-- .swiper-wrapper end -->
+            <div class="swiper-pagination"></div>
+        </div><!-- .swiper mySwiper end -->
+        <div class="inner">
+            <div class="main_txt">
+                <h3>변화와 혁신, 새로운 도약</h3>
+                <h2>SILLA UNIVERSITY.</h2>
+            </div><!-- .main_txt end -->
+        </div><!-- .inner end -->
     </div><!-- .main_visual -->
+
+    <div class="cont01">
+        <div class="inner">
+            <div class="title">
+                <h3>신라뉴스</h3>
+            </div><!-- .title end -->
+            <span>전체보기</span>
+            <ul class="news">
+                <li>
+                    <a href="#">
+                        <img src="img/신라뉴스01.png" alt="신라뉴스_01">
+                        <h3>교육부 2024 글로컬대학 신라대-동명대 연합대학 예비지정 선정... 최종선정에 총력</h3>
+                        <p>2024년 4월 16일 교육부 글로컬대학 30 예비지정대학 선정이 발표되었다. 부산의 대표적인 교육혁신 명문 사학 1위, 2위인 동명대-신라대 연합대학인 부산글로벌허브시티대학(BIG)이 예비지정에 선정되었다.<br/>동명대 ICT 기반 “미래모빌리티스쿨” 신라대 실버케어 기반“미래웰라이프스쿨” 집중 육성 두 대학 캠퍼스 부지(84만여 평) 지산학 일체형 캠퍼스「디지텍혁신타운」조성...</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/신라뉴스02.png" alt="신라뉴스_02">
+                        <h3>신라대 경영학과 김우성 교수, SSCI 국제학술지 '아시아태평양 회계.경제 학회지'에 연구논문 게재</h3>
+                        <p>신라대학교(총장 허남식) 경영학과는 김우성 교수의 연구 논문 ‘Trade credit and firm value in business groups : evidence from Korea’가 ‘아시아태평양 회계·경제 학회지’에 게재되었다고 15일 밝혔다.<br/><br/>신라대 경영학과 김우성 교수는 해외 우수 대학(중국, 베트남, 우즈베키스탄 등)의 이상훈, 이근중, 박근수 교수와 함께 한국의 재벌그룹을 중심으로 거래신용(매출채권)이 기업 가치에 미치는 영향에 관해 실증분석 연구를 공동으로 진행하였다...</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/신라뉴스03.png" alt="신라뉴스_03">
+                        <h3>신라대 경찰행정학과, 사상경찰서와 화랑순찰대 발대식 개최</h3>
+                        <p>신라대학교(총장 허남식) 경찰행정학과가 사상경찰서와 협력 치안 활동을 위한 화랑순찰대 발대식을 개최했다고 9일 밝혔다.<br/><br/>지난 3월 29일 사상경찰서 누리홀에서 신라대 경찰행정학과 학생으로 구성된 화랑순찰대와 사상경찰서가 대학생 순찰대 활동 출범을 기념하는 통합 발대식 개최와 동시에 경학(警學)실습 프로그램 정례화를 위한 업무협약을 체결했다...</p>
+                    </a>
+                </li>
+            </ul><!-- .news end -->
+        </div><!-- .inner end -->
+    </div><!-- .cont01 end -->
+    
+    <div class="cont02">
+        <div class="inner">
+            <div class="title">
+                <h3>NOTICE</h3>
+            </div><!-- .title end -->
+            <div class="tab_menu">
+                <ul>
+                    <li class="on">전체</li>
+                    <li>학사</li>
+                    <li>일반</li>
+                    <li>취업</li>
+                    <li>장학</li>
+                    <li>학사일정</li>
+                </ul>
+            </div><!-- .tab_menu end -->
+            <span>전체보기</span>
+            <div class="list on">
+                <div class="item">
+                    <a href="#">
+                        <span>학사</span>
+                        <div class="txt">
+                            <h3>[학사지원팀]</h3>
+                            <h2>2024학년도 하계 계절학기 개설 예정과목 및 수강신청 안내</h2>
+                            <div class="day">
+                                <p>2024.04.18</p>
+                            </div><!-- .day end -->
+                        </div><!-- .txt end -->
+                    </a>
+                    </div><!-- .item end -->
+
+                <div class="item">
+                    <a href="#">
+                        <span>일반</span>
+                        <div class="txt">
+                            <h3>[교수학습개발센터]</h3>
+                            <h2>트리플 코칭 참여자 모집 안내</h2>
+                            <div class="day">
+                                <p>2024.04.18</p>
+                            </div><!-- .day end -->
+                        </div><!-- .txt end -->
+                    </a>
+                    </div><!-- .item end -->
+
+                <div class="item">
+                    <a href="#">
+                        <span>장학</span>
+                        <div class="txt">
+                            <h3>[외부장학]</h3>
+                            <h2>2024년 1학기 안산시 대학생 본인부담 등록금 반값 지원 안내</h2>
+                            <div class="day">
+                                <p>2024.04.18</p>
+                            </div><!-- .day end -->
+                        </div><!-- .txt end -->
+                    </a>
+                    </div><!-- .item end -->
+            </div><!-- .list end -->
+
+            <div class="list">
+                <div class="item">
+                    <a href="#">
+                        <span>학사</span>
+                        <div class="txt">
+                            <h3>[학사지원팀]</h3>
+                            <h2>2024학년도 하계 계절학기 개설 예정과목 및 수강신청 안내</h2>
+                            <div class="day">
+                                <p>2024.04.18</p>
+                            </div><!-- .day end -->
+                        </div><!-- .txt end -->
+                    </a>
+                    </div><!-- .item end -->
+
+                <div class="item">
+                    <a href="#">
+                        <span>학사</span>
+                        <div class="txt">
+                            <h3>[경리팀]</h3>
+                            <h2>2024-1학기 분할납부 3차 등록안내(납부기간:4.23-24)</h2>
+                            <div class="day">
+                                <p>2024.04.12</p>
+                            </div><!-- .day end -->
+                        </div><!-- .txt end -->
+                    </a>
+                    </div><!-- .item end -->
+
+                <div class="item">
+                    <a href="#">
+                        <span>학사</span>
+                        <div class="txt">
+                            <h3>[학사지원팀]</h3>
+                            <h2>2024년 1학기 교양대형강좌 중간고사 분반 실시 안내</h2>
+                            <div class="day">
+                                <p>2024.04.09</p>
+                            </div><!-- .day end -->
+                        </div><!-- .txt end -->
+                    </a>
+                    </div><!-- .item end -->
+            </div><!-- .list end -->
+
+            <div class="list">
+                <div class="item">
+                    <a href="#">
+                        <span>일반</span>
+                        <div class="txt">
+                            <h3>[교수학습개발센터]</h3>
+                            <h2>트리플 코칭 참여자 모집 안내</h2>
+                            <div class="day">
+                                <p>2024.04.18</p>
+                            </div><!-- .day end -->
+                        </div><!-- .txt end -->
+                    </a>
+                    </div><!-- .item end -->
+
+                <div class="item">
+                    <a href="#">
+                        <span>일반</span>
+                        <div class="txt">
+                            <h3>[평생교육원]</h3>
+                            <h2>국제어학교육센터 2024-1학기 하반기 교내 왹구어 프로그램 모집 안내</h2>
+                            <div class="day">
+                                <p>2024.04.17</p>
+                            </div><!-- .day end -->
+                        </div><!-- .txt end -->
+                    </a>
+                    </div><!-- .item end -->
+
+                <div class="item">
+                    <a href="#">
+                        <span>일반</span>
+                        <div class="txt">
+                            <h3>[취·창업 지원팀]</h3>
+                            <h2>2024년 1학기 전산자격 프로그램 개설 재안내(MOS,CAD1급)</h2>
+                            <div class="day">
+                                <p>2024.04.09</p>
+                            </div><!-- .day end -->
+                        </div><!-- .txt end -->
+                    </a>
+                    </div><!-- .item end -->
+            </div><!-- .list end -->
+        </div><!-- .inner end -->
+    </div><!-- .cont02 end -->
    </div><!-- #wrap end -->
 </body>
 </html>
