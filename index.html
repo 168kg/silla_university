@@ -1,765 +1,959 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>신라대학교_리뉴얼</title>
-     <!-- Link Swiper's CSS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-     <!-- Swiper JS -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-     <script src="lib/jquery-3.5.1.min.js"></script>
- 
-     <script>
-         $(function () {
- 
-             var swiper = new Swiper(".mySwiper", {
-                 spaceBetween: 30,
-                 effect: "fade",
-                 autoplay: {
-                     delay: 4000,
-                     disableOnInteraction: false,
-                 },
-                 loop : true,
-                 pagination: {
-                     el: ".swiper-pagination",
-                     clickable: true,
-                 },
-             });
-         })
-     </script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="lib/jquery-3.5.1.min.js"></script>
+
+    <script>
+        $(function () {
+
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                effect: "fade",
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        })
+    </script>
 </head>
+
 <body>
-   <div id="wrap">
-    <header>
-        <div class="inner">
-            <h1>
-                <a href="#"><img src="img/glogo 1.png" alt="로고"></a>
-            </h1>
-            <nav class="pc">
-                <ul class="gnb">
-                    <li class="depth01">
-                        <a href="#">신라소개</a>
-                        <ul class="depth02">
-                            <a href="#">대학소개</a>
-                            <ul class="depth03">
-                                <li><a href="#">건학이념</a></li>
-                                <li><a href="#">교육이념</a></li>
-                                <li><a href="#">교훈</a></li>
-                                <li><a href="#">연혁</a></li>
-                                <li><a href="#">대학요람</a></li>
-                                <li><a href="#">학생성공 Communiversity</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">총장실</a>
-                            <ul class="depth03">
-                                <li><a href="#">인사말</a></li>
-                                <li><a href="#">약력</a></li>
-                                <li><a href="#">총장 동정</a></li>
-                                <li><a href="#">역대총장</a></li>
-                                <li><a href="#">총장에게 바란다</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">신라상징</a>
-                            <ul class="depth03">
-                                <li><a href="#">상징물</a></li>
-                                <li><a href="#">로고 및 UI</a></li>
-                                <li><a href="#">신라인의 노래</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">대학기구</a>
-                            <ul class="depth03">
-                                <li><a href="#">전체조직도</a></li>
-                                <li><a href="#">대학본부</a></li>
+    <div id="wrap">
+        <header>
+            <div class="inner">
+                <h1>
+                    <a href="#"><img src="img/glogo 1.png" alt="로고"></a>
+                </h1>
+                <nav class="pc">
+                    <ul class="gnb">
+                        <li class="depth01">
+                            <a href="#">신라소개</a>
+                            <ul class="depth02">
+                                <a href="#">대학소개</a>
+                                <ul class="depth03">
+                                    <li><a href="#">건학이념</a></li>
+                                    <li><a href="#">교육이념</a></li>
+                                    <li><a href="#">교훈</a></li>
+                                    <li><a href="#">연혁</a></li>
+                                    <li><a href="#">대학요람</a></li>
+                                    <li><a href="#">학생성공 Communiversity</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">총장실</a>
+                                <ul class="depth03">
+                                    <li><a href="#">인사말</a></li>
+                                    <li><a href="#">약력</a></li>
+                                    <li><a href="#">총장 동정</a></li>
+                                    <li><a href="#">역대총장</a></li>
+                                    <li><a href="#">총장에게 바란다</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">신라상징</a>
+                                <ul class="depth03">
+                                    <li><a href="#">상징물</a></li>
+                                    <li><a href="#">로고 및 UI</a></li>
+                                    <li><a href="#">신라인의 노래</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">대학기구</a>
+                                <ul class="depth03">
+                                    <li><a href="#">전체조직도</a></li>
+                                    <li><a href="#">대학본부</a></li>
+                                    <li><a href="#">대학</a></li>
+                                    <li><a href="#">대학원</a></li>
+                                    <li><a href="#">부속기관</a></li>
+                                    <li><a href="#">부설기관</a></li>
+                                    <li><a href="#">부설연구소</a></li>
+                                    <li><a href="#">산학협력단</a></li>
+                                    <li><a href="#">협력기관</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">학교법인</a>
+                                <ul class="depth03">
+                                    <li><a href="#">알림·공고</a></li>
+                                    <li><a href="#">임원현황</a></li>
+                                    <li><a href="#">이사회회의록</a></li>
+                                    <li><a href="#">박영학원 정관</a></li>
+                                    <li><a href="#">설립자소개</a></li>
+                                    <li><a href="#">연간기부금모금액 및 활용실적</a></li>
+                                    <li><a href="#">범인임원 친족관계 교직원현황</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">캠퍼스 안내</a>
+                            </ul><!-- .depth02 end -->
+                        </li><!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">대학·대학원</a>
+                            <ul class="depth02">
                                 <li><a href="#">대학</a></li>
                                 <li><a href="#">대학원</a></li>
-                                <li><a href="#">부속기관</a></li>
-                                <li><a href="#">부설기관</a></li>
-                                <li><a href="#">부설연구소</a></li>
-                                <li><a href="#">산학협력단</a></li>
-                                <li><a href="#">협력기관</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">학교법인</a>
-                            <ul class="depth03">
-                                <li><a href="#">알림·공고</a></li>
-                                <li><a href="#">임원현황</a></li>
-                                <li><a href="#">이사회회의록</a></li>
-                                <li><a href="#">박영학원 정관</a></li>
-                                <li><a href="#">설립자소개</a></li>
-                                <li><a href="#">연간기부금모금액 및 활용실적</a></li>
-                                <li><a href="#">범인임원 친족관계 교직원현황</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">캠퍼스 안내</a>
-                        </ul><!-- .depth02 end -->
-                    </li><!-- .depth01 end -->
-                    <li class="depth01">
-                        <a href="#">대학·대학원</a>
-                        <ul class="depth02">
-                            <li><a href="#">대학</a></li>
-                            <li><a href="#">대학원</a></li>
-                        </ul><!-- .depth02 end -->
-                    </li><!-- .depth01 end -->
-                    <li class="depth01">
-                        <a href="#">입학안내</a>
-                    </li><!-- .depth01 end -->
-                    <li class="depth01">
-                        <a href="#">취업정보</a>
-                    </li><!-- .depth01 end -->
-                    <li class="depth01">
-                        <a href="#">대학생활</a>
-                        <ul class="depth02">
-                            <a href="#">신입생 대학생활 가이드</a>
-                            <ul class="depth03">
-                                <li><a href="#">행정부서 탐방영상</a></li>
-                                <li><a href="#">신라학생성공 가이드북</a></li>
-                                <li><a href="#">대학생활 Q&A</a></li>
-                                <li><a href="#">신라대학교 유튜브</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 -->
-                        <ul class="depth02">
-                            <a href="#">학사안내</a>
-                            <ul class="depth03">
-                                <li><a href="#">학사일정</a></li>
-                                <li><a href="#">학사규정</a></li>
-                                <li><a href="#">학적</a></li>
-                                <li><a href="#">수업</a></li>
-                                <li><a href="#">장학</a></li>
-                                <li><a href="#">등록</a></li>
-                                <li><a href="#">예비군·병무</a></li>
-                                <li><a href="#">전자출결시스템</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">학생지원 서비스</a>
-                            <ul class="depth03">
-                                <li><a href="#">증명서 발급 안내</a></li>
-                                <li><a href="#">학생증 발급</a></li>
-                                <li><a href="#">국제 학생증 발급</a></li>
-                                <li><a href="#">통학버스 안내</a></li>
-                                <li><a href="#">FAQ</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">편의복지시설</a>
-                            <ul class="depth03">
-                                <li><a href="#">학생회관</a></li>
-                                <li><a href="#">생활관(기숙사)</a></li>
-                                <li><a href="#">의료지원실</a></li>
-                                <li><a href="#">학생상담센터</a></li>
-                                <li><a href="#">장애학생지원센터</a></li>
-                                <li><a href="#">기타편의시설</a></li>
-                                <li><a href="#">기타편의시설 공지사항</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">학생활동</a>
-                            <ul class="depth03">
-                                <li><a href="#">자치기구</a></li>
-                                <li><a href="#">동아리</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">시설물 이용안내</a>
-                            <ul class="depth03">
-                                <li><a href="#">시설물 사용신청</a></li>
-                                <li><a href="#">시설물 보수신청</a></li>
-                                <li><a href="#">체육관시설물 이용안내</a></li>
-                                <li><a href="#">신라크리에이터스튜디오</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">외부인 시설물 대관신청</a>
-                            <ul class="depth03">
-                                <li><a href="#">대관시설 이용안내</a></li>
-                                <li><a href="#">유의사항</a></li>
-                                <li><a href="#">Q&A</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">교내PC이용안내</a>
-                            <ul class="depth03">
-                                <li><a href="#">교내PC 이용안내</a></li>
-                                <li><a href="#">소프트웨어 사용안내</a></li>
-                                <li><a href="#">무선인터넷 사용안내</a></li>
-                                <li><a href="#">PC실습실 이용안내</a></li>
-                                <li><a href="#">유/무선공유기 사용안내</a></li>
-                                <li><a href="#">불법소프트웨어 사용금지안내</a></li>
-                                <li><a href="#">오피스365 이용안내</a></li>
-                                <li><a href="#">신입생 e-서비스 가이드</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">국제교류</a>
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">서식모음</a>
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">원클릭서비스</a>
-                        </ul><!-- .depth02 end -->
-                    </li><!-- .depth01 end -->
-                    <li class="depth01">
-                        <a href="#">신라광장</a>
-                        <ul class="depth02">
-                            <a href="#">공지사항</a>
-                            <ul class="depth03">
-                                <li><a href="#">학사공지</a></li>
-                                <li><a href="#">일반공지</a></li>
-                                <li><a href="#">취업공지</a></li>
-                                <li><a href="#">장학등록</a></li>
-                                <li><a href="#">행사모집</a></li>
-                                <li><a href="#">코로나19</a></li>
-                                <li><a href="#">봉사활동</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">참여게시판</a>
-                            <ul class="detph03">
-                                <li><a href="#">교육수요자 만족도 조사</a></li>
-                                <li><a href="#">자유게시판</a></li>
-                                <li><a href="#">칭찬합시다</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">생활게시판</a>
-                            <ul class="depth03">
-                                <li><a href="#">신라장터</a></li>
-                                <li><a href="#">신라복덕방</a></li>
-                                <li><a href="#">분실물센터</a></li>
-                                <li><a href="#">아르바이트</a></li>
-                                <li><a href="#">할인혜택안내</a></li>
-                            </ul><!-- .detph03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">민원센터</a>
-                            <ul class="depth03">
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Q&A(온라인신문고)</a></li>
-                                <li><a href="#">홈페이지개선의견</a></li>
-                                <li><a href="#">인터넷/PC장애</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="detph02">
-                            <a href="#">입찰/채용</a>
-                            <ul class="depth03">
-                                <li><a href="#">입찰공고</a></li>
-                                <li><a href="#">교직원초빙</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                    </li><!-- .depth01 end -->
-                </ul><!-- .gnb end -->
-            </nav><!-- .pc end -->
-            <div class="login">
-                <a href="#">login</a>
-                <div class="login_box">
-                    <p>닫기</p>
-                    <div class="title">
-                        <h3>LOGIN</h3>
-                        <p>신라대학교 홈페이지에 오신 것을 환영합니다.</p>
-                        <span>재학생(졸업생) 및 교직원은 신라넷 아이디와 비밀번호로 로그인하세요.</span>
-                    </div><!-- title end -->
-                    <input type="radio" id="s" name="login" value="교직원" checked />
-                    <label for="s">교직원</label>
-                    <input type="radio" id="ss" name="login" value="학부생" />
-                    <label for="ss">학부생</label>
-                    <input type="radio" id="sss" name="login" value="대학원생" />
-                    <label for="sss">대학원생</label>
-                    <div class="big_box">
-                    <div class="box">
-                    <div class="id_box">
-                        <label for="id">아이디</label>
-                        <input type="text" id="id" placeholder="아이디를 입력해주세요."/>
-                    </div><!-- .id_box end -->
-                    <div class="id_box">
-                        <label for="pw">패스워드</label>
-                        <input type="text" id="pw" placeholder="비밀번호를 입력해주세요."/>
-                    </div><!-- .id_box end -->
-                </div><!-- .box end -->
-                <div>
+                            </ul><!-- .depth02 end -->
+                        </li><!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">입학안내</a>
+                        </li><!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">취업정보</a>
+                        </li><!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">대학생활</a>
+                            <ul class="depth02">
+                                <a href="#">신입생 대학생활 가이드</a>
+                                <ul class="depth03">
+                                    <li><a href="#">행정부서 탐방영상</a></li>
+                                    <li><a href="#">신라학생성공 가이드북</a></li>
+                                    <li><a href="#">대학생활 Q&A</a></li>
+                                    <li><a href="#">신라대학교 유튜브</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 -->
+                            <ul class="depth02">
+                                <a href="#">학사안내</a>
+                                <ul class="depth03">
+                                    <li><a href="#">학사일정</a></li>
+                                    <li><a href="#">학사규정</a></li>
+                                    <li><a href="#">학적</a></li>
+                                    <li><a href="#">수업</a></li>
+                                    <li><a href="#">장학</a></li>
+                                    <li><a href="#">등록</a></li>
+                                    <li><a href="#">예비군·병무</a></li>
+                                    <li><a href="#">전자출결시스템</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">학생지원 서비스</a>
+                                <ul class="depth03">
+                                    <li><a href="#">증명서 발급 안내</a></li>
+                                    <li><a href="#">학생증 발급</a></li>
+                                    <li><a href="#">국제 학생증 발급</a></li>
+                                    <li><a href="#">통학버스 안내</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">편의복지시설</a>
+                                <ul class="depth03">
+                                    <li><a href="#">학생회관</a></li>
+                                    <li><a href="#">생활관(기숙사)</a></li>
+                                    <li><a href="#">의료지원실</a></li>
+                                    <li><a href="#">학생상담센터</a></li>
+                                    <li><a href="#">장애학생지원센터</a></li>
+                                    <li><a href="#">기타편의시설</a></li>
+                                    <li><a href="#">기타편의시설 공지사항</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">학생활동</a>
+                                <ul class="depth03">
+                                    <li><a href="#">자치기구</a></li>
+                                    <li><a href="#">동아리</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">시설물 이용안내</a>
+                                <ul class="depth03">
+                                    <li><a href="#">시설물 사용신청</a></li>
+                                    <li><a href="#">시설물 보수신청</a></li>
+                                    <li><a href="#">체육관시설물 이용안내</a></li>
+                                    <li><a href="#">신라크리에이터스튜디오</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">외부인 시설물 대관신청</a>
+                                <ul class="depth03">
+                                    <li><a href="#">대관시설 이용안내</a></li>
+                                    <li><a href="#">유의사항</a></li>
+                                    <li><a href="#">Q&A</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">교내PC이용안내</a>
+                                <ul class="depth03">
+                                    <li><a href="#">교내PC 이용안내</a></li>
+                                    <li><a href="#">소프트웨어 사용안내</a></li>
+                                    <li><a href="#">무선인터넷 사용안내</a></li>
+                                    <li><a href="#">PC실습실 이용안내</a></li>
+                                    <li><a href="#">유/무선공유기 사용안내</a></li>
+                                    <li><a href="#">불법소프트웨어 사용금지안내</a></li>
+                                    <li><a href="#">오피스365 이용안내</a></li>
+                                    <li><a href="#">신입생 e-서비스 가이드</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">국제교류</a>
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">서식모음</a>
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">원클릭서비스</a>
+                            </ul><!-- .depth02 end -->
+                        </li><!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">신라광장</a>
+                            <ul class="depth02">
+                                <a href="#">공지사항</a>
+                                <ul class="depth03">
+                                    <li><a href="#">학사공지</a></li>
+                                    <li><a href="#">일반공지</a></li>
+                                    <li><a href="#">취업공지</a></li>
+                                    <li><a href="#">장학등록</a></li>
+                                    <li><a href="#">행사모집</a></li>
+                                    <li><a href="#">코로나19</a></li>
+                                    <li><a href="#">봉사활동</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">참여게시판</a>
+                                <ul class="detph03">
+                                    <li><a href="#">교육수요자 만족도 조사</a></li>
+                                    <li><a href="#">자유게시판</a></li>
+                                    <li><a href="#">칭찬합시다</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">생활게시판</a>
+                                <ul class="depth03">
+                                    <li><a href="#">신라장터</a></li>
+                                    <li><a href="#">신라복덕방</a></li>
+                                    <li><a href="#">분실물센터</a></li>
+                                    <li><a href="#">아르바이트</a></li>
+                                    <li><a href="#">할인혜택안내</a></li>
+                                </ul><!-- .detph03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">민원센터</a>
+                                <ul class="depth03">
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Q&A(온라인신문고)</a></li>
+                                    <li><a href="#">홈페이지개선의견</a></li>
+                                    <li><a href="#">인터넷/PC장애</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="detph02">
+                                <a href="#">입찰/채용</a>
+                                <ul class="depth03">
+                                    <li><a href="#">입찰공고</a></li>
+                                    <li><a href="#">교직원초빙</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                        </li><!-- .depth01 end -->
+                    </ul><!-- .gnb end -->
+                </nav><!-- .pc end -->
+                <div class="login">
                     <a href="#">login</a>
-                </div>
-            </div><!-- .big_box -->
-                    <ul>
-                        <li><a href="#">아이디찾기</a></li>
-                        <li><a href="#">비밀번호찾기</a></li>
-                    </ul>
-                    
-                </div><!-- .login_box -->
-            </div><!-- .login end -->
-
-            <div class="mobile menu_open">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div><!-- .mobile menu_open end -->
-
-            <nav class="mobile mobile_gnb">
-                <div class="menu_close">
-                    <div></div>
-                    <div></div>
-                </div><!-- .menu_close end -->
-                
-                <ul class="gnb">
-                    <div class="mobile login">
-                        <a href="#">login</a>
-                        <div class="login_box">
-                            <p>닫기</p>
-                            <div class="title">
-                                <h3>LOGIN</h3>
-                                <p>신라대학교 홈페이지에 오신 것을 환영합니다.</p>
-                                <span>재학생(졸업생) 및 교직원은 신라넷 아이디와 비밀번호로 로그인하세요.</span>
-                            </div><!-- title end -->
-                            <input type="radio" id="s" name="login" value="교직원" checked />
-                            <label for="s">교직원</label>
-                            <input type="radio" id="ss" name="login" value="학부생" />
-                            <label for="ss">학부생</label>
-                            <input type="radio" id="sss" name="login" value="대학원생" />
-                            <label for="sss">대학원생</label>
-                            <div class="big_box">
+                    <div class="login_box">
+                        <p>닫기</p>
+                        <div class="title">
+                            <h3>LOGIN</h3>
+                            <p>신라대학교 홈페이지에 오신 것을 환영합니다.</p>
+                            <span>재학생(졸업생) 및 교직원은 신라넷 아이디와 비밀번호로 로그인하세요.</span>
+                        </div><!-- title end -->
+                        <input type="radio" id="s" name="login" value="교직원" checked />
+                        <label for="s">교직원</label>
+                        <input type="radio" id="ss" name="login" value="학부생" />
+                        <label for="ss">학부생</label>
+                        <input type="radio" id="sss" name="login" value="대학원생" />
+                        <label for="sss">대학원생</label>
+                        <div class="big_box">
                             <div class="box">
-                            <div class="id_box">
-                                <label for="id">아이디</label>
-                                <input type="text" id="id" placeholder="아이디를 입력해주세요."/>
-                            </div><!-- .id_box end -->
-                            <div class="id_box">
-                                <label for="pw">패스워드</label>
-                                <input type="text" id="pw" placeholder="비밀번호를 입력해주세요."/>
-                            </div><!-- .id_box end -->
-                        </div><!-- .box end -->
-                        <div>
+                                <div class="id_box">
+                                    <label for="id">아이디</label>
+                                    <input type="text" id="id" placeholder="아이디를 입력해주세요." />
+                                </div><!-- .id_box end -->
+                                <div class="id_box">
+                                    <label for="pw">패스워드</label>
+                                    <input type="text" id="pw" placeholder="비밀번호를 입력해주세요." />
+                                </div><!-- .id_box end -->
+                            </div><!-- .box end -->
+                            <div>
+                                <a href="#">login</a>
+                            </div>
+                        </div><!-- .big_box -->
+                        <ul>
+                            <li><a href="#">아이디찾기</a></li>
+                            <li><a href="#">비밀번호찾기</a></li>
+                        </ul>
+
+                    </div><!-- .login_box -->
+                </div><!-- .login end -->
+
+                <div class="mobile menu_open">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div><!-- .mobile menu_open end -->
+
+                <nav class="mobile mobile_gnb">
+                    <div class="menu_close">
+                        <div></div>
+                        <div></div>
+                    </div><!-- .menu_close end -->
+
+                    <ul class="gnb">
+                        <div class="mobile login">
                             <a href="#">login</a>
-                        </div>
-                    </div><!-- .big_box -->
-                            <ul>
-                                <li><a href="#">아이디찾기</a></li>
-                                <li><a href="#">비밀번호찾기</a></li>
-                            </ul>
-                            
-                        </div><!-- .login_box -->
-                    </div><!-- .mobile login end -->
-                    <li class="depth01">
-                        <a href="#">신라소개</a>
-                        <ul class="depth02">
-                            <a href="#">대학소개</a>
-                            <ul class="depth03">
-                                <li><a href="#">건학이념</a></li>
-                                <li><a href="#">교육이념</a></li>
-                                <li><a href="#">교훈</a></li>
-                                <li><a href="#">연혁</a></li>
-                                <li><a href="#">대학요람</a></li>
-                                <li><a href="#">학생성공 Communiversity</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">총장실</a>
-                            <ul class="depth03">
-                                <li><a href="#">인사말</a></li>
-                                <li><a href="#">약력</a></li>
-                                <li><a href="#">총장 동정</a></li>
-                                <li><a href="#">역대총장</a></li>
-                                <li><a href="#">총장에게 바란다</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">신라상징</a>
-                            <ul class="depth03">
-                                <li><a href="#">상징물</a></li>
-                                <li><a href="#">로고 및 UI</a></li>
-                                <li><a href="#">신라인의 노래</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">대학기구</a>
-                            <ul class="depth03">
-                                <li><a href="#">전체조직도</a></li>
-                                <li><a href="#">대학본부</a></li>
+                            <div class="login_box">
+                                <p>닫기</p>
+                                <div class="title">
+                                    <h3>LOGIN</h3>
+                                    <p>신라대학교 홈페이지에 오신 것을 환영합니다.</p>
+                                    <span>재학생(졸업생) 및 교직원은 신라넷 아이디와 비밀번호로 로그인하세요.</span>
+                                </div><!-- title end -->
+                                <input type="radio" id="s" name="login" value="교직원" checked />
+                                <label for="s">교직원</label>
+                                <input type="radio" id="ss" name="login" value="학부생" />
+                                <label for="ss">학부생</label>
+                                <input type="radio" id="sss" name="login" value="대학원생" />
+                                <label for="sss">대학원생</label>
+                                <div class="big_box">
+                                    <div class="box">
+                                        <div class="id_box">
+                                            <label for="id">아이디</label>
+                                            <input type="text" id="id" placeholder="아이디를 입력해주세요." />
+                                        </div><!-- .id_box end -->
+                                        <div class="id_box">
+                                            <label for="pw">패스워드</label>
+                                            <input type="text" id="pw" placeholder="비밀번호를 입력해주세요." />
+                                        </div><!-- .id_box end -->
+                                    </div><!-- .box end -->
+                                    <div>
+                                        <a href="#">login</a>
+                                    </div>
+                                </div><!-- .big_box -->
+                                <ul>
+                                    <li><a href="#">아이디찾기</a></li>
+                                    <li><a href="#">비밀번호찾기</a></li>
+                                </ul>
+
+                            </div><!-- .login_box -->
+                        </div><!-- .mobile login end -->
+                        <li class="depth01">
+                            <a href="#">신라소개</a>
+                            <ul class="depth02">
+                                <a href="#">대학소개</a>
+                                <ul class="depth03">
+                                    <li><a href="#">건학이념</a></li>
+                                    <li><a href="#">교육이념</a></li>
+                                    <li><a href="#">교훈</a></li>
+                                    <li><a href="#">연혁</a></li>
+                                    <li><a href="#">대학요람</a></li>
+                                    <li><a href="#">학생성공 Communiversity</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">총장실</a>
+                                <ul class="depth03">
+                                    <li><a href="#">인사말</a></li>
+                                    <li><a href="#">약력</a></li>
+                                    <li><a href="#">총장 동정</a></li>
+                                    <li><a href="#">역대총장</a></li>
+                                    <li><a href="#">총장에게 바란다</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">신라상징</a>
+                                <ul class="depth03">
+                                    <li><a href="#">상징물</a></li>
+                                    <li><a href="#">로고 및 UI</a></li>
+                                    <li><a href="#">신라인의 노래</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">대학기구</a>
+                                <ul class="depth03">
+                                    <li><a href="#">전체조직도</a></li>
+                                    <li><a href="#">대학본부</a></li>
+                                    <li><a href="#">대학</a></li>
+                                    <li><a href="#">대학원</a></li>
+                                    <li><a href="#">부속기관</a></li>
+                                    <li><a href="#">부설기관</a></li>
+                                    <li><a href="#">부설연구소</a></li>
+                                    <li><a href="#">산학협력단</a></li>
+                                    <li><a href="#">협력기관</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">학교법인</a>
+                                <ul class="depth03">
+                                    <li><a href="#">알림·공고</a></li>
+                                    <li><a href="#">임원현황</a></li>
+                                    <li><a href="#">이사회회의록</a></li>
+                                    <li><a href="#">박영학원 정관</a></li>
+                                    <li><a href="#">설립자소개</a></li>
+                                    <li><a href="#">연간기부금모금액 및 활용실적</a></li>
+                                    <li><a href="#">범인임원 친족관계 교직원현황</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">캠퍼스 안내</a>
+                            </ul><!-- .depth02 end -->
+                        </li><!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">대학·대학원</a>
+                            <ul class="depth02">
                                 <li><a href="#">대학</a></li>
                                 <li><a href="#">대학원</a></li>
-                                <li><a href="#">부속기관</a></li>
-                                <li><a href="#">부설기관</a></li>
-                                <li><a href="#">부설연구소</a></li>
-                                <li><a href="#">산학협력단</a></li>
-                                <li><a href="#">협력기관</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">학교법인</a>
-                            <ul class="depth03">
-                                <li><a href="#">알림·공고</a></li>
-                                <li><a href="#">임원현황</a></li>
-                                <li><a href="#">이사회회의록</a></li>
-                                <li><a href="#">박영학원 정관</a></li>
-                                <li><a href="#">설립자소개</a></li>
-                                <li><a href="#">연간기부금모금액 및 활용실적</a></li>
-                                <li><a href="#">범인임원 친족관계 교직원현황</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">캠퍼스 안내</a>
-                        </ul><!-- .depth02 end -->
-                    </li><!-- .depth01 end -->
-                    <li class="depth01">
-                        <a href="#">대학·대학원</a>
-                        <ul class="depth02">
-                            <li><a href="#">대학</a></li>
-                            <li><a href="#">대학원</a></li>
-                        </ul><!-- .depth02 end -->
-                    </li><!-- .depth01 end -->
-                    <li class="depth01">
-                        <a href="#">입학안내</a>
-                    </li><!-- .depth01 end -->
-                    <li class="depth01">
-                        <a href="#">취업정보</a>
-                    </li><!-- .depth01 end -->
-                    <li class="depth01">
-                        <a href="#">대학생활</a>
-                        <ul class="depth02">
-                            <a href="#">신입생 대학생활 가이드</a>
-                            <ul class="depth03">
-                                <li><a href="#">행정부서 탐방영상</a></li>
-                                <li><a href="#">신라학생성공 가이드북</a></li>
-                                <li><a href="#">대학생활 Q&A</a></li>
-                                <li><a href="#">신라대학교 유튜브</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 -->
-                        <ul class="depth02">
-                            <a href="#">학사안내</a>
-                            <ul class="depth03">
-                                <li><a href="#">학사일정</a></li>
-                                <li><a href="#">학사규정</a></li>
-                                <li><a href="#">학적</a></li>
-                                <li><a href="#">수업</a></li>
-                                <li><a href="#">장학</a></li>
-                                <li><a href="#">등록</a></li>
-                                <li><a href="#">예비군·병무</a></li>
-                                <li><a href="#">전자출결시스템</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">학생지원 서비스</a>
-                            <ul class="depth03">
-                                <li><a href="#">증명서 발급 안내</a></li>
-                                <li><a href="#">학생증 발급</a></li>
-                                <li><a href="#">국제 학생증 발급</a></li>
-                                <li><a href="#">통학버스 안내</a></li>
-                                <li><a href="#">FAQ</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">편의복지시설</a>
-                            <ul class="depth03">
-                                <li><a href="#">학생회관</a></li>
-                                <li><a href="#">생활관(기숙사)</a></li>
-                                <li><a href="#">의료지원실</a></li>
-                                <li><a href="#">학생상담센터</a></li>
-                                <li><a href="#">장애학생지원센터</a></li>
-                                <li><a href="#">기타편의시설</a></li>
-                                <li><a href="#">기타편의시설 공지사항</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">학생활동</a>
-                            <ul class="depth03">
-                                <li><a href="#">자치기구</a></li>
-                                <li><a href="#">동아리</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">시설물 이용안내</a>
-                            <ul class="depth03">
-                                <li><a href="#">시설물 사용신청</a></li>
-                                <li><a href="#">시설물 보수신청</a></li>
-                                <li><a href="#">체육관시설물 이용안내</a></li>
-                                <li><a href="#">신라크리에이터스튜디오</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">외부인 시설물 대관신청</a>
-                            <ul class="depth03">
-                                <li><a href="#">대관시설 이용안내</a></li>
-                                <li><a href="#">유의사항</a></li>
-                                <li><a href="#">Q&A</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">교내PC이용안내</a>
-                            <ul class="depth03">
-                                <li><a href="#">교내PC 이용안내</a></li>
-                                <li><a href="#">소프트웨어 사용안내</a></li>
-                                <li><a href="#">무선인터넷 사용안내</a></li>
-                                <li><a href="#">PC실습실 이용안내</a></li>
-                                <li><a href="#">유/무선공유기 사용안내</a></li>
-                                <li><a href="#">불법소프트웨어 사용금지안내</a></li>
-                                <li><a href="#">오피스365 이용안내</a></li>
-                                <li><a href="#">신입생 e-서비스 가이드</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">국제교류</a>
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">서식모음</a>
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">원클릭서비스</a>
-                        </ul><!-- .depth02 end -->
-                    </li><!-- .depth01 end -->
-                    <li class="depth01">
-                        <a href="#">신라광장</a>
-                        <ul class="depth02">
-                            <a href="#">공지사항</a>
-                            <ul class="depth03">
-                                <li><a href="#">학사공지</a></li>
-                                <li><a href="#">일반공지</a></li>
-                                <li><a href="#">취업공지</a></li>
-                                <li><a href="#">장학등록</a></li>
-                                <li><a href="#">행사모집</a></li>
-                                <li><a href="#">코로나19</a></li>
-                                <li><a href="#">봉사활동</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">참여게시판</a>
-                            <ul class="detph03">
-                                <li><a href="#">교육수요자 만족도 조사</a></li>
-                                <li><a href="#">자유게시판</a></li>
-                                <li><a href="#">칭찬합시다</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">생활게시판</a>
-                            <ul class="depth03">
-                                <li><a href="#">신라장터</a></li>
-                                <li><a href="#">신라복덕방</a></li>
-                                <li><a href="#">분실물센터</a></li>
-                                <li><a href="#">아르바이트</a></li>
-                                <li><a href="#">할인혜택안내</a></li>
-                            </ul><!-- .detph03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="depth02">
-                            <a href="#">민원센터</a>
-                            <ul class="depth03">
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Q&A(온라인신문고)</a></li>
-                                <li><a href="#">홈페이지개선의견</a></li>
-                                <li><a href="#">인터넷/PC장애</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                        <ul class="detph02">
-                            <a href="#">입찰/채용</a>
-                            <ul class="depth03">
-                                <li><a href="#">입찰공고</a></li>
-                                <li><a href="#">교직원초빙</a></li>
-                            </ul><!-- .depth03 end -->
-                        </ul><!-- .depth02 end -->
-                    </li><!-- .depth01 end -->
-                </ul><!-- .gnb end -->
-            </nav><!-- .mobile end -->
-        </div><!-- .inner end -->
-    </header>
+                            </ul><!-- .depth02 end -->
+                        </li><!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">입학안내</a>
+                        </li><!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">취업정보</a>
+                        </li><!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">대학생활</a>
+                            <ul class="depth02">
+                                <a href="#">신입생 대학생활 가이드</a>
+                                <ul class="depth03">
+                                    <li><a href="#">행정부서 탐방영상</a></li>
+                                    <li><a href="#">신라학생성공 가이드북</a></li>
+                                    <li><a href="#">대학생활 Q&A</a></li>
+                                    <li><a href="#">신라대학교 유튜브</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 -->
+                            <ul class="depth02">
+                                <a href="#">학사안내</a>
+                                <ul class="depth03">
+                                    <li><a href="#">학사일정</a></li>
+                                    <li><a href="#">학사규정</a></li>
+                                    <li><a href="#">학적</a></li>
+                                    <li><a href="#">수업</a></li>
+                                    <li><a href="#">장학</a></li>
+                                    <li><a href="#">등록</a></li>
+                                    <li><a href="#">예비군·병무</a></li>
+                                    <li><a href="#">전자출결시스템</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">학생지원 서비스</a>
+                                <ul class="depth03">
+                                    <li><a href="#">증명서 발급 안내</a></li>
+                                    <li><a href="#">학생증 발급</a></li>
+                                    <li><a href="#">국제 학생증 발급</a></li>
+                                    <li><a href="#">통학버스 안내</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">편의복지시설</a>
+                                <ul class="depth03">
+                                    <li><a href="#">학생회관</a></li>
+                                    <li><a href="#">생활관(기숙사)</a></li>
+                                    <li><a href="#">의료지원실</a></li>
+                                    <li><a href="#">학생상담센터</a></li>
+                                    <li><a href="#">장애학생지원센터</a></li>
+                                    <li><a href="#">기타편의시설</a></li>
+                                    <li><a href="#">기타편의시설 공지사항</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">학생활동</a>
+                                <ul class="depth03">
+                                    <li><a href="#">자치기구</a></li>
+                                    <li><a href="#">동아리</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">시설물 이용안내</a>
+                                <ul class="depth03">
+                                    <li><a href="#">시설물 사용신청</a></li>
+                                    <li><a href="#">시설물 보수신청</a></li>
+                                    <li><a href="#">체육관시설물 이용안내</a></li>
+                                    <li><a href="#">신라크리에이터스튜디오</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">외부인 시설물 대관신청</a>
+                                <ul class="depth03">
+                                    <li><a href="#">대관시설 이용안내</a></li>
+                                    <li><a href="#">유의사항</a></li>
+                                    <li><a href="#">Q&A</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">교내PC이용안내</a>
+                                <ul class="depth03">
+                                    <li><a href="#">교내PC 이용안내</a></li>
+                                    <li><a href="#">소프트웨어 사용안내</a></li>
+                                    <li><a href="#">무선인터넷 사용안내</a></li>
+                                    <li><a href="#">PC실습실 이용안내</a></li>
+                                    <li><a href="#">유/무선공유기 사용안내</a></li>
+                                    <li><a href="#">불법소프트웨어 사용금지안내</a></li>
+                                    <li><a href="#">오피스365 이용안내</a></li>
+                                    <li><a href="#">신입생 e-서비스 가이드</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">국제교류</a>
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">서식모음</a>
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">원클릭서비스</a>
+                            </ul><!-- .depth02 end -->
+                        </li><!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">신라광장</a>
+                            <ul class="depth02">
+                                <a href="#">공지사항</a>
+                                <ul class="depth03">
+                                    <li><a href="#">학사공지</a></li>
+                                    <li><a href="#">일반공지</a></li>
+                                    <li><a href="#">취업공지</a></li>
+                                    <li><a href="#">장학등록</a></li>
+                                    <li><a href="#">행사모집</a></li>
+                                    <li><a href="#">코로나19</a></li>
+                                    <li><a href="#">봉사활동</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">참여게시판</a>
+                                <ul class="detph03">
+                                    <li><a href="#">교육수요자 만족도 조사</a></li>
+                                    <li><a href="#">자유게시판</a></li>
+                                    <li><a href="#">칭찬합시다</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">생활게시판</a>
+                                <ul class="depth03">
+                                    <li><a href="#">신라장터</a></li>
+                                    <li><a href="#">신라복덕방</a></li>
+                                    <li><a href="#">분실물센터</a></li>
+                                    <li><a href="#">아르바이트</a></li>
+                                    <li><a href="#">할인혜택안내</a></li>
+                                </ul><!-- .detph03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="depth02">
+                                <a href="#">민원센터</a>
+                                <ul class="depth03">
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Q&A(온라인신문고)</a></li>
+                                    <li><a href="#">홈페이지개선의견</a></li>
+                                    <li><a href="#">인터넷/PC장애</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                            <ul class="detph02">
+                                <a href="#">입찰/채용</a>
+                                <ul class="depth03">
+                                    <li><a href="#">입찰공고</a></li>
+                                    <li><a href="#">교직원초빙</a></li>
+                                </ul><!-- .depth03 end -->
+                            </ul><!-- .depth02 end -->
+                        </li><!-- .depth01 end -->
+                    </ul><!-- .gnb end -->
+                </nav><!-- .mobile end -->
+            </div><!-- .inner end -->
+        </header>
 
-    <div class="main_visual">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="img/main_visual_01.png" alt="메인_비주얼_01">
-                </div><!-- .swiper-slide end -->
-                <div class="swiper-slide">
-                    <img src="img/main_visual_02.png" alt="메인_비주얼_02">
-                </div><!-- .swiper-slide end -->
-                <div class="swiper-slide">
-                    <img src="img/main_visual_03.png" alt="메인_비주얼_03">
-                </div><!-- .swiper-slide end -->               
-            </div><!-- .swiper-wrapper end -->
-            <div class="swiper-pagination"></div>
-        </div><!-- .swiper mySwiper end -->
-        <div class="inner">
-            <div class="main_txt">
-                <h3>변화와 혁신, 새로운 도약</h3>
-                <h2>SILLA UNIVERSITY.</h2>
-            </div><!-- .main_txt end -->
-        </div><!-- .inner end -->
-    </div><!-- .main_visual -->
+        <div class="main_visual">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/main_visual_01.png" alt="메인_비주얼_01">
+                    </div><!-- .swiper-slide end -->
+                    <div class="swiper-slide">
+                        <img src="img/main_visual_02.png" alt="메인_비주얼_02">
+                    </div><!-- .swiper-slide end -->
+                    <div class="swiper-slide">
+                        <img src="img/main_visual_03.png" alt="메인_비주얼_03">
+                    </div><!-- .swiper-slide end -->
+                </div><!-- .swiper-wrapper end -->
+                <div class="swiper-pagination"></div>
+            </div><!-- .swiper mySwiper end -->
+            <div class="inner">
+                <div class="main_txt">
+                    <h3>변화와 혁신, 새로운 도약</h3>
+                    <h2>SILLA UNIVERSITY.</h2>
+                </div><!-- .main_txt end -->
+            </div><!-- .inner end -->
+        </div><!-- .main_visual -->
 
-    <div class="cont01">
-        <div class="inner">
+        <div class="cont01">
+            <div class="inner">
+                <div class="title">
+                    <h3>신라뉴스</h3>
+                </div><!-- .title end -->
+                <span>전체보기</span>
+                <ul class="news">
+                    <li>
+                        <a href="#">
+                            <img src="img/신라뉴스01.png" alt="신라뉴스_01">
+                            <h3>교육부 2024 글로컬대학 신라대-동명대 연합대학 예비지정 선정... 최종선정에 총력</h3>
+                            <p>2024년 4월 16일 교육부 글로컬대학 30 예비지정대학 선정이 발표되었다. 부산의 대표적인 교육혁신 명문 사학 1위, 2위인 동명대-신라대 연합대학인
+                                부산글로벌허브시티대학(BIG)이 예비지정에 선정되었다.<br />동명대 ICT 기반 “미래모빌리티스쿨” 신라대 실버케어 기반“미래웰라이프스쿨” 집중 육성 두
+                                대학 캠퍼스 부지(84만여 평) 지산학 일체형 캠퍼스「디지텍혁신타운」조성...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/신라뉴스02.png" alt="신라뉴스_02">
+                            <h3>신라대 경영학과 김우성 교수, SSCI 국제학술지 '아시아태평양 회계.경제 학회지'에 연구논문 게재</h3>
+                            <p>신라대학교(총장 허남식) 경영학과는 김우성 교수의 연구 논문 ‘Trade credit and firm value in business groups :
+                                evidence from Korea’가 ‘아시아태평양 회계·경제 학회지’에 게재되었다고 15일 밝혔다.<br /><br />신라대 경영학과 김우성 교수는 해외
+                                우수 대학(중국, 베트남, 우즈베키스탄 등)의 이상훈, 이근중, 박근수 교수와 함께 한국의 재벌그룹을 중심으로 거래신용(매출채권)이 기업 가치에 미치는 영향에
+                                관해 실증분석 연구를 공동으로 진행하였다...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/신라뉴스03.png" alt="신라뉴스_03">
+                            <h3>신라대 경찰행정학과, 사상경찰서와 화랑순찰대 발대식 개최</h3>
+                            <p>신라대학교(총장 허남식) 경찰행정학과가 사상경찰서와 협력 치안 활동을 위한 화랑순찰대 발대식을 개최했다고 9일 밝혔다.<br /><br />지난 3월 29일
+                                사상경찰서 누리홀에서 신라대 경찰행정학과 학생으로 구성된 화랑순찰대와 사상경찰서가 대학생 순찰대 활동 출범을 기념하는 통합 발대식 개최와 동시에
+                                경학(警學)실습 프로그램 정례화를 위한 업무협약을 체결했다...</p>
+                        </a>
+                    </li>
+                </ul><!-- .news end -->
+            </div><!-- .inner end -->
+        </div><!-- .cont01 end -->
+
+        <div class="cont02">
+            <div class="inner">
+                <div class="title">
+                    <h3>NOTICE</h3>
+                </div><!-- .title end -->
+                <div class="tab_menu">
+                    <ul>
+                        <li class="on">전체</li>
+                        <li>학사</li>
+                        <li>일반</li>
+                        <li>취업</li>
+                        <li>장학</li>
+                        <li>학사일정</li>
+                    </ul>
+                </div><!-- .tab_menu end -->
+                <span>전체보기</span>
+                <div class="list on">
+                    <div class="item">
+                        <a href="#">
+                            <span>학사</span>
+                            <div class="txt">
+                                <h3>[학사지원팀]</h3>
+                                <h2>2024학년도 하계 계절학기 개설 예정과목 및 수강신청 안내</h2>
+                                <div class="day">
+                                    <p>2024.04.18</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>일반</span>
+                            <div class="txt">
+                                <h3>[교수학습개발센터]</h3>
+                                <h2>트리플 코칭 참여자 모집 안내</h2>
+                                <div class="day">
+                                    <p>2024.04.18</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>장학</span>
+                            <div class="txt">
+                                <h3>[외부장학]</h3>
+                                <h2>2024년 1학기 안산시 대학생 본인부담 등록금 반값 지원 안내</h2>
+                                <div class="day">
+                                    <p>2024.04.18</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+                </div><!-- .list end -->
+
+                <div class="list">
+                    <div class="item">
+                        <a href="#">
+                            <span>학사</span>
+                            <div class="txt">
+                                <h3>[학사지원팀]</h3>
+                                <h2>2024학년도 하계 계절학기 개설 예정과목 및 수강신청 안내</h2>
+                                <div class="day">
+                                    <p>2024.04.18</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>학사</span>
+                            <div class="txt">
+                                <h3>[경리팀]</h3>
+                                <h2>2024-1학기 분할납부 3차 등록안내(납부기간:4.23-24)</h2>
+                                <div class="day">
+                                    <p>2024.04.12</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>학사</span>
+                            <div class="txt">
+                                <h3>[학사지원팀]</h3>
+                                <h2>2024년 1학기 교양대형강좌 중간고사 분반 실시 안내</h2>
+                                <div class="day">
+                                    <p>2024.04.09</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+                </div><!-- .list end -->
+
+                <div class="list">
+                    <div class="item">
+                        <a href="#">
+                            <span>일반</span>
+                            <div class="txt">
+                                <h3>[교수학습개발센터]</h3>
+                                <h2>트리플 코칭 참여자 모집 안내</h2>
+                                <div class="day">
+                                    <p>2024.04.18</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>일반</span>
+                            <div class="txt">
+                                <h3>[평생교육원]</h3>
+                                <h2>국제어학교육센터 2024-1학기 하반기 교내 왹구어 프로그램 모집 안내</h2>
+                                <div class="day">
+                                    <p>2024.04.17</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>일반</span>
+                            <div class="txt">
+                                <h3>[취·창업 지원팀]</h3>
+                                <h2>2024년 1학기 전산자격 프로그램 개설 재안내(MOS,CAD1급)</h2>
+                                <div class="day">
+                                    <p>2024.04.09</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+                </div><!-- .list end -->
+
+                <div class="list">
+                    <div class="item">
+                        <a href="#">
+                            <span>취업</span>
+                            <div class="txt">
+                                <h3>[교수학습개발센터]</h3>
+                                <h2>연구원 모집 재공고</h2>
+                                <div class="day">
+                                    <p>2024.04.24</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>취업</span>
+                            <div class="txt">
+                                <h3>[산학협력단]</h3>
+                                <h2>토양분석센터 직원 채용 공고</h2>
+                                <div class="day">
+                                    <p>2024.04.17</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>일반</span>
+                            <div class="txt">
+                                <h3>[총무팀]</h3>
+                                <h2>신라대학교 직원 채용 공고</h2>
+                                <div class="day">
+                                    <p>2024.04.12</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+                </div><!-- .list end -->
+
+                <div class="list">
+                    <div class="item">
+                        <a href="#">
+                            <span>장학</span>
+                            <div class="txt">
+                                <h3>[근로장학]</h3>
+                                <h2>2024학년도 다문화 탈북학생 멘토링 사업 장학생 선발 안내</h2>
+                                <div class="day">
+                                    <p>2024.04.25</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>장학</span>
+                            <div class="txt">
+                                <h3>[근로장학]</h3>
+                                <h2>[대청교] 2024학년도 대학생청소년교육지원사업 장학생 1차 선발 결과 및...</h2>
+                                <div class="day">
+                                    <p>2024.04.25</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>장학</span>
+                            <div class="txt">
+                                <h3>[근로장학]</h3>
+                                <h2>2024학년도 대학생 청소년 교육지원 자학 사업 멘토 2차 선발 안내</h2>
+                                <div class="day">
+                                    <p>2024.04.25</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+                </div><!-- .list end -->
+
+                <div class="list">
+                    <div class="item">
+                        <a href="#">
+                            <span>학사일정</span>
+                            <div class="txt">
+                                <h3>[2024.04]</h3>
+                                <h2>이수구분변경 신청</h2>
+                                <div class="day">
+                                    <p>2024.04.21 ~ 2024.04.05</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>학사일정</span>
+                            <div class="txt">
+                                <h3>[2024.04]</h3>
+                                <h2>수업일수 1/3</h2>
+                                <div class="day">
+                                    <p>2024.04.07</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+
+                    <div class="item">
+                        <a href="#">
+                            <span>학사일정</span>
+                            <div class="txt">
+                                <h3>[2024.04]</h3>
+                                <h2>교직 이수구분변경 신청</h2>
+                                <div class="day">
+                                    <p>2024.04.08 ~ 2024.04.15</p>
+                                </div><!-- .day end -->
+                            </div><!-- .txt end -->
+                        </a>
+                    </div><!-- .item end -->
+                </div><!-- .list end -->
+            </div><!-- .inner end -->
+        </div><!-- .cont02 end -->
+
+        <div class="cont03">
             <div class="title">
-                <h3>신라뉴스</h3>
+                <h3>주요사이트</h3>
             </div><!-- .title end -->
-            <span>전체보기</span>
-            <ul class="news">
-                <li>
-                    <a href="#">
-                        <img src="img/신라뉴스01.png" alt="신라뉴스_01">
-                        <h3>교육부 2024 글로컬대학 신라대-동명대 연합대학 예비지정 선정... 최종선정에 총력</h3>
-                        <p>2024년 4월 16일 교육부 글로컬대학 30 예비지정대학 선정이 발표되었다. 부산의 대표적인 교육혁신 명문 사학 1위, 2위인 동명대-신라대 연합대학인 부산글로벌허브시티대학(BIG)이 예비지정에 선정되었다.<br/>동명대 ICT 기반 “미래모빌리티스쿨” 신라대 실버케어 기반“미래웰라이프스쿨” 집중 육성 두 대학 캠퍼스 부지(84만여 평) 지산학 일체형 캠퍼스「디지텍혁신타운」조성...</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/신라뉴스02.png" alt="신라뉴스_02">
-                        <h3>신라대 경영학과 김우성 교수, SSCI 국제학술지 '아시아태평양 회계.경제 학회지'에 연구논문 게재</h3>
-                        <p>신라대학교(총장 허남식) 경영학과는 김우성 교수의 연구 논문 ‘Trade credit and firm value in business groups : evidence from Korea’가 ‘아시아태평양 회계·경제 학회지’에 게재되었다고 15일 밝혔다.<br/><br/>신라대 경영학과 김우성 교수는 해외 우수 대학(중국, 베트남, 우즈베키스탄 등)의 이상훈, 이근중, 박근수 교수와 함께 한국의 재벌그룹을 중심으로 거래신용(매출채권)이 기업 가치에 미치는 영향에 관해 실증분석 연구를 공동으로 진행하였다...</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/신라뉴스03.png" alt="신라뉴스_03">
-                        <h3>신라대 경찰행정학과, 사상경찰서와 화랑순찰대 발대식 개최</h3>
-                        <p>신라대학교(총장 허남식) 경찰행정학과가 사상경찰서와 협력 치안 활동을 위한 화랑순찰대 발대식을 개최했다고 9일 밝혔다.<br/><br/>지난 3월 29일 사상경찰서 누리홀에서 신라대 경찰행정학과 학생으로 구성된 화랑순찰대와 사상경찰서가 대학생 순찰대 활동 출범을 기념하는 통합 발대식 개최와 동시에 경학(警學)실습 프로그램 정례화를 위한 업무협약을 체결했다...</p>
-                    </a>
-                </li>
-            </ul><!-- .news end -->
-        </div><!-- .inner end -->
-    </div><!-- .cont01 end -->
-    
-    <div class="cont02">
-        <div class="inner">
-            <div class="title">
-                <h3>NOTICE</h3>
-            </div><!-- .title end -->
-            <div class="tab_menu">
+            <ul>
+                <li><a href="#">신라넷</a></li>
+                <li><a href="#">교직원포탈</a></li>
+                <li><a href="#">사이버대학</a></li>
+                <li><a href="#">증명서발급</a></li>
+                <li><a href="#">스텝(STEP)</a></li>
+                <li><a href="#">기숙사</a></li>
+                <li><a href="#">산학협력단</a></li>
+                <li><a href="#">도서관</a></li>
+            </ul>
+        </div><!-- .cont03 end -->
+
+        <footer>
+            <div class="left">
                 <ul>
-                    <li class="on">전체</li>
-                    <li>학사</li>
-                    <li>일반</li>
-                    <li>취업</li>
-                    <li>장학</li>
-                    <li>학사일정</li>
+                    <li>(우) 46958 부산 사상구 백양대로 70번길 140(괘법동)</li>
                 </ul>
-            </div><!-- .tab_menu end -->
-            <span>전체보기</span>
-            <div class="list on">
-                <div class="item">
-                    <a href="#">
-                        <span>학사</span>
-                        <div class="txt">
-                            <h3>[학사지원팀]</h3>
-                            <h2>2024학년도 하계 계절학기 개설 예정과목 및 수강신청 안내</h2>
-                            <div class="day">
-                                <p>2024.04.18</p>
-                            </div><!-- .day end -->
-                        </div><!-- .txt end -->
-                    </a>
-                    </div><!-- .item end -->
+                <ul>
+                    <li>TEL 051-999-5000</li>
+                    <li>TEL 051-999-5800</li>
+                </ul>
+            </div><!-- .left end -->
+            <div class="center">
+                <div class="top">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">캠퍼스맵</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                        <li><a href="#">외부인시설물대관</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">대학정보공시</a></li>
+                        <li><a href="#">대학자체평가</a></li>
+                        <li><a href="#">법령상위원회</a></li>
+                        <li><a href="#">정보공개</a></li>
+                        <li><a href="#">예결산공고</a></li>
+                    </ul>
+                </div><!-- .top end -->
+                <p>COPYRIGHT (C) SILLA UNIVERSITY ALL RIGHTS RESERVED.</p>
+            </div><!-- .center end -->
+            <div class="right">
+                <a href="#"><img src="img/instagram.png" alt="인스타그램"></a>
+                <a href="#"><img src="img/youtube.png" alt="유튜브"></a>
+                <a href="#"><img src="img/facebook.png" alt="페이스북"></a>
+            </div><!-- .right end -->
+        </footer>
 
-                <div class="item">
-                    <a href="#">
-                        <span>일반</span>
-                        <div class="txt">
-                            <h3>[교수학습개발센터]</h3>
-                            <h2>트리플 코칭 참여자 모집 안내</h2>
-                            <div class="day">
-                                <p>2024.04.18</p>
-                            </div><!-- .day end -->
-                        </div><!-- .txt end -->
-                    </a>
-                    </div><!-- .item end -->
-
-                <div class="item">
-                    <a href="#">
-                        <span>장학</span>
-                        <div class="txt">
-                            <h3>[외부장학]</h3>
-                            <h2>2024년 1학기 안산시 대학생 본인부담 등록금 반값 지원 안내</h2>
-                            <div class="day">
-                                <p>2024.04.18</p>
-                            </div><!-- .day end -->
-                        </div><!-- .txt end -->
-                    </a>
-                    </div><!-- .item end -->
-            </div><!-- .list end -->
-
-            <div class="list">
-                <div class="item">
-                    <a href="#">
-                        <span>학사</span>
-                        <div class="txt">
-                            <h3>[학사지원팀]</h3>
-                            <h2>2024학년도 하계 계절학기 개설 예정과목 및 수강신청 안내</h2>
-                            <div class="day">
-                                <p>2024.04.18</p>
-                            </div><!-- .day end -->
-                        </div><!-- .txt end -->
-                    </a>
-                    </div><!-- .item end -->
-
-                <div class="item">
-                    <a href="#">
-                        <span>학사</span>
-                        <div class="txt">
-                            <h3>[경리팀]</h3>
-                            <h2>2024-1학기 분할납부 3차 등록안내(납부기간:4.23-24)</h2>
-                            <div class="day">
-                                <p>2024.04.12</p>
-                            </div><!-- .day end -->
-                        </div><!-- .txt end -->
-                    </a>
-                    </div><!-- .item end -->
-
-                <div class="item">
-                    <a href="#">
-                        <span>학사</span>
-                        <div class="txt">
-                            <h3>[학사지원팀]</h3>
-                            <h2>2024년 1학기 교양대형강좌 중간고사 분반 실시 안내</h2>
-                            <div class="day">
-                                <p>2024.04.09</p>
-                            </div><!-- .day end -->
-                        </div><!-- .txt end -->
-                    </a>
-                    </div><!-- .item end -->
-            </div><!-- .list end -->
-
-            <div class="list">
-                <div class="item">
-                    <a href="#">
-                        <span>일반</span>
-                        <div class="txt">
-                            <h3>[교수학습개발센터]</h3>
-                            <h2>트리플 코칭 참여자 모집 안내</h2>
-                            <div class="day">
-                                <p>2024.04.18</p>
-                            </div><!-- .day end -->
-                        </div><!-- .txt end -->
-                    </a>
-                    </div><!-- .item end -->
-
-                <div class="item">
-                    <a href="#">
-                        <span>일반</span>
-                        <div class="txt">
-                            <h3>[평생교육원]</h3>
-                            <h2>국제어학교육센터 2024-1학기 하반기 교내 왹구어 프로그램 모집 안내</h2>
-                            <div class="day">
-                                <p>2024.04.17</p>
-                            </div><!-- .day end -->
-                        </div><!-- .txt end -->
-                    </a>
-                    </div><!-- .item end -->
-
-                <div class="item">
-                    <a href="#">
-                        <span>일반</span>
-                        <div class="txt">
-                            <h3>[취·창업 지원팀]</h3>
-                            <h2>2024년 1학기 전산자격 프로그램 개설 재안내(MOS,CAD1급)</h2>
-                            <div class="day">
-                                <p>2024.04.09</p>
-                            </div><!-- .day end -->
-                        </div><!-- .txt end -->
-                    </a>
-                    </div><!-- .item end -->
-            </div><!-- .list end -->
-        </div><!-- .inner end -->
-    </div><!-- .cont02 end -->
-   </div><!-- #wrap end -->
+        <div class="circle">
+            <div class="top_cir">
+                <p>Top</p>
+            </div><!-- .top_cir -->
+            <div class="quick">
+                <p>Quick Menu</p>
+            </div><!-- .quick end -->
+        </div><!-- .circle end -->
+    </div><!-- #wrap end -->
 </body>
+
 </html>
